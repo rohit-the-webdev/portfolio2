@@ -1,0 +1,36 @@
+aside{
+    width: 250px;   
+}
+.icons {
+  display: inline-flex;            /* keeps icon centered */
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;                     /* adjust size as needed */
+  height: 35px;
+  border-radius: 12px;             /* rounded corners */
+  
+  background: rgba(255, 255, 255, 0.1); /* glassy background */
+  backdrop-filter: blur(6px);      /* glass effect */
+  -webkit-backdrop-filter: blur(6px);
+
+  color: #FFD700;                  /* yellow icon color */
+  font-size: 16px;                 /* icon size */
+
+  position: relative;
+  overflow: hidden;                /* so highlight stays inside */
+}
+
+/* Whiteish highlight in top-left */
+.icons::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 40%;
+  height: 40%;
+  border-radius: inherit;
+  background: rgba(255, 255, 255, 0.3);
+  filter: blur(8px);
+  pointer-events: none;
+}
