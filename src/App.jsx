@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="app d-flex justify-content-around align-items-center">
         <Sidebar/>
         <div className="tabs">
           <BrowserRouter>

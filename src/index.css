@@ -1,0 +1,6 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #121212; /* black background */
+  color: #fff;            /* white text so it’s visible */
+}

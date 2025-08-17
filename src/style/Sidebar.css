@@ -1,36 +1,37 @@
-aside{
-    width: 250px;   
+aside {
+  width: 300px;
+  height: 600px;
+  background-color: #1E1E1F;
+  color: white;
+  border-radius: 10px;
+
+  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
+               1px  1px 0px rgba(251, 251, 251, 0.2);
 }
-.icons {
-  display: inline-flex;            /* keeps icon centered */
+hr{
+  width: 250px;
+}
+
+.icon-box {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  /* subtle glass */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  display: flex;
   align-items: center;
   justify-content: center;
-
-  width: 35px;                     /* adjust size as needed */
-  height: 35px;
-  border-radius: 12px;             /* rounded corners */
-  
-  background: rgba(255, 255, 255, 0.1); /* glassy background */
-  backdrop-filter: blur(6px);      /* glass effect */
-  -webkit-backdrop-filter: blur(6px);
-
-  color: #FFD700;                  /* yellow icon color */
-  font-size: 16px;                 /* icon size */
-
   position: relative;
-  overflow: hidden;                /* so highlight stays inside */
+  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
+             3px  3px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Whiteish highlight in top-left */
-.icons::before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 40%;
-  height: 40%;
-  border-radius: inherit;
-  background: rgba(255, 255, 255, 0.3);
-  filter: blur(8px);
-  pointer-events: none;
+.icon-box {
+  font-size: 22px;
+  color: #FFD700;
+  /* golden yellow */
+  z-index: 1;
 }
