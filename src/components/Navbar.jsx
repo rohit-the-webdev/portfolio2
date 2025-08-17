@@ -1,15 +1,29 @@
-import { NavLink } from "react-router-dom";
+import '../style/navbar.css'
 
-export default function Navbar() {
+export default function Navbar({ activeTab, setActiveTab }) {
+  const Tab = (key, label) => (
+    <li key={key} className="navbar-item">
+      <button
+        type="button"
+        className={`navbar-link ${activeTab === key ? "active" : ""}`}
+        onClick={() => setActiveTab(key)}
+      >
+        {label}
+      </button>
+    </li>
+  );
+
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li><NavLink to="/" className="navbar-link">About</NavLink></li>
-        <li><NavLink to="/resume" className="navbar-link">Resume</NavLink></li>
-        <li><NavLink to="/portfolio" className="navbar-link">Portfolio</NavLink></li>
-        <li><NavLink to="/blog" className="navbar-link">Blog</NavLink></li>
-        <li><NavLink to="/contact" className="navbar-link">Contact</NavLink></li>
-      </ul>
-    </nav>
+    <header className="navbar">
+      <div className="navbar-container">
+        <ul className="navbar-list">
+          {Tab("about", "About")}
+          {Tab("resume", "Resume")}
+          {Tab("portfolio", "Portfolio")}
+          {Tab("blog", "Blog")}
+          {Tab("contact", "Contact")}
+        </ul>
+      </div>
+    </header>
   );
 }

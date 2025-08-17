@@ -4,3 +4,9 @@ html, body, #root {
   background-color: #121212; /* black background */
   color: #fff;            /* white text so it’s visible */
 }
+.app {
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: flex-start; /* or center if you want horizontal centering too */
+  min-height: 100vh;     /* take full viewport height */
+}
