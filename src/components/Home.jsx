@@ -3,10 +3,14 @@ import Resume from "../pages/Resume";
 import Portfolio from "../pages/Portfolio";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
+import Navbar from "../components/Navbar";
+import '../style/home.css';
 
-export default function Home({ activeTab }) {
+export default function Home({ activeTab, setActiveTab }) {
+  
   return (
-    <div className="home">
+    <div className="home container-fluid">
+      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       {activeTab === "about" && <About />}
       {activeTab === "resume" && <Resume />}
       {activeTab === "portfolio" && <Portfolio />}

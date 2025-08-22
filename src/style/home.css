@@ -1,0 +1,6 @@
+.home{
+      color: white;
+      border-radius: 10px;
+      box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
+               1px  1px 0px rgba(251, 251, 251, 0.2);
+}

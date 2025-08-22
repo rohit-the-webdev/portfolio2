@@ -1,5 +1,5 @@
 aside {
-  width: 300px;
+  width: 280px;
   height: 600px;
   background-color: #1E1E1F;
   color: white;
@@ -13,9 +13,9 @@ hr{
 }
 
 .icon-box {
-  width: 45px;
-  height: 45px;
-  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
   background: rgba(255, 255, 255, 0.05);
   /* subtle glass */
   backdrop-filter: blur(8px);
@@ -30,8 +30,8 @@ hr{
 }
 
 .icon-box {
-  font-size: 22px;
-  color: #FFD700;
+  font-size: 21px;
+  color: #00d4ff;
   /* golden yellow */
   z-index: 1;
 }
