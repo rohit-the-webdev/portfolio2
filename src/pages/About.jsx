@@ -21,7 +21,7 @@ export default function About() {
 
       <h4 className="headline">What I'm Doing</h4>
       <div className="container mt-4">
-  <div className="row justify-content-center">
+  <div className="row justify-content-between">
     <div className="col-md-5 mb-3">
       <div
         className="card d-flex flex-row align-items-center p-3"
