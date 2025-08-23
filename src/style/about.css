@@ -4,3 +4,17 @@ p {
   line-height: 1.6;   /* improves readability */
   font-size: 1rem;
 }
+.about-me-text p {
+  margin-left: 0;
+  padding-left: 0;
+}
+.card{
+  width: 400px;
+  background-color: #222224;
+  color: white;
+  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
+               1px  1px 0px rgba(251, 251, 251, 0.2);
+}
+.card-img{
+  width: 40px;
+}

@@ -1,7 +1,7 @@
 /* Whole navbar */
 .navbar {
   width: 100%;
-  background: #111; /* dark background */
+  
   padding: 0.8rem 2rem;
   position: sticky; /* stays at top */
   top: 0;

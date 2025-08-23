@@ -7,7 +7,7 @@ export default function Sidebar() {
   const [open, setOpen] = useState(true);
 
   return (
-    <aside className={`sidebar ${open ? "active" : ""} d-flex flex-column justify-content-center align-items-center`}>
+    <aside className={`sidebar ${open ? "active" : ""} d-flex flex-column justify-content-center align-items-center sticky-top`}>
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img src={profile} alt="Rohit Kale" width="80" />
