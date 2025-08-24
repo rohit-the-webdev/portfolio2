@@ -20,24 +20,18 @@ export default function About() {
       </div>
 
       <h4 className="headline">What I'm Doing</h4>
-      <div className="container mt-4">
-  <div className="row justify-content-between">
-    <div className="col-md-5 mb-3">
-      <div
-        className="card d-flex flex-row align-items-center p-3"
-        style={{ backgroundColor: "#1c1c1c", borderRadius: "12px" }}
-      >
+      <div className="container mt-3">
+  <div className="row justify-content-center">
+    <div className="col-md-6 mb-3 d-flex justify-content-center">
+      <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
           src="src/assets/images/icon-design.svg"
           alt="icon"
-          style={{ width: "40px", height: "50px", marginRight: "15px" }}
+          className="icon about-icons"
         />
-
         <div className="card-body p-0">
-          <h5 className="card-title mb-1" style={{ color: "#fff" }}>
-            Web Design
-          </h5>
-          <p className="card-text mb-0" style={{ color: "#ccc" }}>
+          <h5 className="card-title">Web Design</h5>
+          <p className="card-text mb-0">
             The most modern and high-quality design made at a professional
             level.
           </p>
@@ -45,77 +39,56 @@ export default function About() {
       </div>
     </div>
 
-    <div className="col-md-5 mb-3">
-      <div
-        className="card d-flex flex-row align-items-center p-3"
-        style={{ backgroundColor: "#1c1c1c", borderRadius: "12px" }}
-      >
+    <div className="col-md-6 mb-3 d-flex justify-content-center">
+      <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-design.svg"
+          src="src/assets/images/icon-dev.svg"
           alt="icon"
-          style={{ width: "40px", height: "50px", marginRight: "15px" }}
+          className="icon about-icons"
         />
-
         <div className="card-body p-0">
-          <h5 className="card-title mb-1" style={{ color: "#fff" }}>
-            Web Design
-          </h5>
-          <p className="card-text mb-0" style={{ color: "#ccc" }}>
-            The most modern and high-quality design made at a professional
-            level.
+          <h5 className="card-title">Web development</h5>
+          <p className="card-text mb-0">
+            High-quality development of sites at the professional level.
           </p>
         </div>
       </div>
     </div>
 
-    <div className="col-md-5 mb-3">
-      <div
-        className="card d-flex flex-row align-items-center p-3"
-        style={{ backgroundColor: "#1c1c1c", borderRadius: "12px" }}
-      >
+    <div className="col-md-6 mb-3 d-flex justify-content-center">
+      <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-design.svg"
+          src="src/assets/images/icon-app.svg"
           alt="icon"
-          style={{ width: "40px", height: "50px", marginRight: "15px" }}
+          className="icon about-icons"
         />
-
         <div className="card-body p-0">
-          <h5 className="card-title mb-1" style={{ color: "#fff" }}>
-            Web Design
-          </h5>
-          <p className="card-text mb-0" style={{ color: "#ccc" }}>
-            The most modern and high-quality design made at a professional
-            level.
+          <h5 className="card-title">Mobile apps</h5>
+          <p className="card-text mb-0">
+            Professional development of applications for iOS and Android.
           </p>
         </div>
       </div>
     </div>
 
-    <div className="col-md-5 mb-3">
-      <div
-        className="card d-flex flex-row align-items-center p-3"
-        style={{ backgroundColor: "#1c1c1c", borderRadius: "12px" }}
-      >
+    <div className="col-md-6 mb-3 d-flex justify-content-center">
+      <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-design.svg"
+          src="src/assets/images/icon-photo.svg"
           alt="icon"
-          style={{ width: "40px", height: "50px", marginRight: "15px" }}
+          className="icon about-icons"
         />
-
         <div className="card-body p-0">
-          <h5 className="card-title mb-1" style={{ color: "#fff" }}>
-            Web Design
-          </h5>
-          <p className="card-text mb-0" style={{ color: "#ccc" }}>
-            The most modern and high-quality design made at a professional
-            level.
+          <h5 className="card-title">Photography</h5>
+          <p className="card-text mb-0">
+            I make high-quality photos of any category at a professional level.
           </p>
         </div>
       </div>
     </div>
+
   </div>
-</div>
-
+      </div>
     </article>
   );
 }

@@ -1,18 +1,18 @@
 import { useState } from "react";
 import '../style/Sidebar.css';
 import { IoCallOutline, IoMailOutline, IoCalendarOutline, IoLocationOutline } from "react-icons/io5";
-import profile from '../assets/react.svg';
+import profile from '../assets/images/my-avatar.png';
 
 export default function Sidebar() {
   const [open, setOpen] = useState(true);
 
   return (
-    <aside className={`sidebar ${open ? "active" : ""} d-flex flex-column justify-content-center align-items-center sticky-top`}>
+    <aside className={`sidebar ${open ? "active" : ""} d-flex flex-column justify-content-center align-items-center `}>
       <div className="sidebar-info">
-        <figure className="avatar-box">
-          <img src={profile} alt="Rohit Kale" width="80" />
+        <figure className="avatar-box d-flex flex-column justify-content-center align-items-center">
+          <img src={profile} className="profile" alt="Rohit Kale" />
         </figure>
-        <div className="info-content">
+        <div className="info-content d-flex flex-column justify-content-center align-items-center ">
           <h4 className="name">Rohit Kale</h4>
           <h6 className="title">Web Developer</h6>
         </div>
@@ -57,7 +57,7 @@ export default function Sidebar() {
               </div>
               <div className="items ms-4 d-flex flex-column">
                 <div className="row">Location</div>
-                <div className="row">Baramati, Maharashtra, India</div>
+                <div className="row">Baramati, Maharashtra, <br /> INDIA</div>
               </div>
             </li>
           </ul>

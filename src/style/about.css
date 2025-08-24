@@ -1,20 +1,28 @@
 p {
-  max-width: 900px;   /* keeps text readable, not too wide */
+  max-width: 800px;   /* keeps text readable, not too wide */
   margin: 1rem auto;  /* centers paragraph block */
-  line-height: 1.6;   /* improves readability */
+  line-height: 1.5;   /* improves readability */
   font-size: 1rem;
 }
 .about-me-text p {
   margin-left: 0;
   padding-left: 0;
 }
+
+.col-md-5 {
+  flex: unset !important;
+  max-width: unset !important;
+}
 .card{
-  width: 400px;
+  width: 600px;
   background-color: #222224;
+  border-radius: 12px;
   color: white;
   box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
-               1px  1px 0px rgba(251, 251, 251, 0.2);
+             3px  3px 6px rgba(0, 0, 0, 0.1);
 }
-.card-img{
-  width: 40px;
+.about-icons{
+    width: 40px;
+    height: 50px;
+    margin-right: 15px;
 }

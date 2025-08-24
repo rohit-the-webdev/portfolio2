@@ -1,17 +1,20 @@
 aside {
-  width: 280px;
-  height: 600px;
+  width: 275px;
+  height: 700px;
   background-color: #1E1E1F;
   color: white;
-  border-radius: 10px;
-
-  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
-               1px  1px 0px rgba(251, 251, 251, 0.2);
+  border-radius: 20px;
+  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.1),
+               1px  1px 0px rgba(251, 251, 251, 0.1);
 }
 hr{
-  width: 250px;
+  width: 200px;
 }
-
+.profile{
+  width: 150px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #3D3D3F, #333333);
+}
 .icon-box {
   width: 40px;
   height: 40px;
@@ -31,7 +34,7 @@ hr{
 
 .icon-box {
   font-size: 21px;
-  color: #00d4ff;
+  color: rgb(255, 219, 112);
   /* golden yellow */
   z-index: 1;
 }

@@ -1,0 +1,5 @@
+.sidebar {
+  position: sticky;      /* keep sidebar in place */
+  top: 2rem;             /* aligns with your mt-5 (margin-top) */
+  flex-shrink: 0;        /* prevents sidebar from shrinking */
+}
