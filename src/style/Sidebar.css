@@ -23,13 +23,13 @@ hr{
   /* subtle glass */
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
+             3px  3px 6px rgba(0, 0, 0, 0.1);
 
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  box-shadow: -1px -1px 0px rgba(251, 251, 251, 0.2),
-             3px  3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .icon-box {

@@ -9,7 +9,7 @@ import "./App.css";
 export default function App() {
   const [activeTab, setActiveTab] = useState("about");
   return (
-    <div className="app d-flex justify-content-center align-items-start mt-5">
+    <div className="app d-flex justify-content-center align-items-start">
       <div className="sidebar">
         <Sidebar />
       </div>

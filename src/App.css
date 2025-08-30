@@ -1,3 +1,7 @@
+.app{
+  padding-top: 60px;
+}
+
 .sidebar {
   position: sticky;      /* keep sidebar in place */
   top: 2rem;             /* aligns with your mt-5 (margin-top) */
