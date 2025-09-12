@@ -16,7 +16,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
   return (
     <header className="navbar">
       <div className="navbar-container">
-        <ul className="navbar-list ms-auto">
+        <ul className="navbar-list">
           {Tab("about", "About")}
           {Tab("resume", "Resume")}
           {Tab("portfolio", "Portfolio")}

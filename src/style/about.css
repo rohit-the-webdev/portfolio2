@@ -6,7 +6,7 @@ p {
 }
 .about-me-text p {
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 18px;
 }
 
 .col-md-5 {

@@ -14,7 +14,6 @@ export default function App() {
         <Sidebar />
       </div>
       <div className="content">
-        {/* <Navbar activeTab={activeTab} setActiveTab={setActiveTab} /> */}
         <Home activeTab={activeTab} setActiveTab={setActiveTab} />
       </div>
     </div>

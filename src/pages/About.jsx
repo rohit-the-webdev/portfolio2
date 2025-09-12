@@ -19,7 +19,7 @@ export default function About() {
         </p>
       </div>
 
-      <h4 className="headline">What I'm Doing</h4>
+      <h4 className="headline ms-3">What I'm Doing</h4>
       <div className="container mt-3">
   <div className="row justify-content-center">
     <div className="col-md-6 mb-3 d-flex justify-content-center">

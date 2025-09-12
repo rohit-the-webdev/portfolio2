@@ -10,7 +10,9 @@ export default function Home({ activeTab, setActiveTab }) {
   
   return (
     <div className="home container-fluid mx-4 pb-4">
+      <div className="navbar-home-container">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      </div>
       {activeTab === "about" && <About />}
       {activeTab === "resume" && <Resume />}
       {activeTab === "portfolio" && <Portfolio />}

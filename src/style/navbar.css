@@ -1,18 +1,32 @@
 /* Whole navbar */
 .navbar {
-  width: 100%;
-  
-  padding: 0.8rem 2rem;
+  padding: 0.6rem 3rem;
   /* position: sticky; stays at top */
   top: 0;
   z-index: 1000;
+  background: hsla(240, 1%, 17%, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid #383838;
+  border-radius: 0px 12px 0px 12px;
+  box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+  z-index: 5;
 }
 
-/* Flex container for logo + links */
+/* let .navbar-container size to its content, but sit at the right */
 .navbar-container {
-  display: flex;
-  justify-content: space-between;
+  display: flex;         /* keep children laid out in a row */
   align-items: center;
+  margin-left: 0;     /* <--- pushes the whole container to the right */
+}
+
+/* compact link list (no stretching) */
+.navbar-list {
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-end; /* optional - keeps items inside ul right aligned */
 }
 
 /* Branding / logo */
@@ -22,20 +36,11 @@
   color: white;
 }
 
-/* List styles */
-.navbar-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-}
-
 /* Buttons */
 .navbar-link {
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #ddd;
   cursor: pointer;
   transition: color 0.3s, border-bottom 0.3s;
