@@ -1,4 +1,8 @@
 import "../style/about.css";
+import icon_design from '../assets/images/icon-design.svg'
+import icon_dev from '../assets/images/icon-dev.svg'
+import icon_app from '../assets/images/icon-app.svg'
+import icon_photo from '../assets/images/icon-photo.svg'
 export default function About() {
   return (
     <article classNameName="about d-flex flex-column justify-content-start">
@@ -25,7 +29,7 @@ export default function About() {
     <div className="col-md-6 mb-3 d-flex justify-content-center">
       <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-design.svg"
+          src={icon_design}
           alt="icon"
           className="icon about-icons"
         />
@@ -42,7 +46,7 @@ export default function About() {
     <div className="col-md-6 mb-3 d-flex justify-content-center">
       <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-dev.svg"
+          src={icon_dev}
           alt="icon"
           className="icon about-icons"
         />
@@ -58,7 +62,7 @@ export default function About() {
     <div className="col-md-6 mb-3 d-flex justify-content-center">
       <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-app.svg"
+          src={icon_app}
           alt="icon"
           className="icon about-icons"
         />
@@ -74,7 +78,7 @@ export default function About() {
     <div className="col-md-6 mb-3 d-flex justify-content-center">
       <div className="card d-flex flex-row align-items-center p-3" style={{ maxWidth: "400px", width: "100%" }}>
         <img
-          src="src/assets/images/icon-photo.svg"
+          src={icon_photo}
           alt="icon"
           className="icon about-icons"
         />
