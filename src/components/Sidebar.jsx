@@ -1,6 +1,6 @@
 import { useState } from "react";
 import '../style/Sidebar.css';
-import { IoCallOutline, IoMailOutline, IoCalendarOutline, IoLocationOutline } from "react-icons/io5";
+import { IoCallOutline, IoMailOutline, IoCalendarOutline, IoLocationOutline, IoLogoInstagram, IoLogoFacebook, IoLogoTwitter, IoLogoLinkedin } from "react-icons/io5";
 import profile from '../assets/images/my-avatar.png';
 
 export default function Sidebar() {
@@ -16,14 +16,10 @@ export default function Sidebar() {
           <h4 className="name">Rohit Kale</h4>
           <h6 className="title">Web Developer</h6>
         </div>
-        {/* <button className="info_more-btn" onClick={() => setOpen(!open)}>
-          <span>Show Contacts</span>
-          <IoChevronDown className="icons"/>
-        </button> */}
       </div>
       <hr />
         <div className="sidebar-info_more">
-          <ul class="list-unstyled">
+          <ul className="list-unstyled">
             <li className="my-4 d-flex justify-content-start">
               <div className="icon-box">
                 <IoMailOutline className="icon"/>
@@ -62,6 +58,33 @@ export default function Sidebar() {
             </li>
           </ul>
         </div>
+        <ul className="social-list">
+
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <IoLogoFacebook/>
+            </a>
+          </li>
+
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <IoLogoInstagram/>
+            </a>
+          </li>
+
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <IoLogoTwitter/>
+            </a>
+          </li>
+
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <IoLogoLinkedin/>
+            </a>
+          </li>
+
+        </ul>
 
     </aside>
   );

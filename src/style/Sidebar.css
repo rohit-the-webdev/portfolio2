@@ -38,3 +38,21 @@ hr{
   /* golden yellow */
   z-index: 1;
 }
+
+.social-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.social-item .social-link {
+  color: #d6d6d6b3;
+  font-size: 18px;
+}
+
+
+.social-item .social-link:hover { color: var(--light-gray); }
