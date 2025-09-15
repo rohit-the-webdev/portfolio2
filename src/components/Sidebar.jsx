@@ -7,14 +7,14 @@ export default function Sidebar() {
   const [open, setOpen] = useState(true);
 
   return (
-    <aside className={`sidebar ${open ? "active" : ""} d-flex flex-column justify-content-center align-items-center ms-3`}>
+    <aside className="sidebar d-flex flex-column justify-content-center align-items-center ms-3">
       <div className="sidebar-info">
         <figure className="avatar-box d-flex flex-column justify-content-center align-items-center">
           <img src={profile} className="profile" alt="Rohit Kale" />
         </figure>
         <div className="info-content d-flex flex-column justify-content-center align-items-center ">
           <h4 className="name">Rohit Kale</h4>
-          <h6 className="title">Web Developer</h6>
+          <p className="title">Web Developer</p>
         </div>
       </div>
       <hr />
@@ -25,7 +25,7 @@ export default function Sidebar() {
                 <IoMailOutline className="icon"/>
               </div>
               <div className="items ms-4 d-flex flex-column">
-                <div className="row">email</div>
+                <div className="row">Email</div>
                 <div className="row">rohitkale842@gmail.com</div>
               </div>
             </li>

@@ -1,4 +1,10 @@
 /* === Education & Experience Timeline === */
+.pageTitle{
+  width: 140px;
+  margin-top: -4%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+}
 
 .timeline { margin-bottom: 30px; }
 

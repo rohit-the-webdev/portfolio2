@@ -1,12 +1,26 @@
+.pageTitle{
+  width: auto;
+  margin-top: -550%;
+  padding-left: 33%;
+  margin-bottom: 0%;
+  white-space: nowrap;
+}
+
 p {
-  max-width: 800px;   /* keeps text readable, not too wide */
+  max-width: 850px;   /* keeps text readable, not too wide */
   margin: 1rem auto;  /* centers paragraph block */
   line-height: 1.5;   /* improves readability */
   font-size: 1rem;
 }
+.about-me-text{
+  margin-top: -3%;
+  width: max-content;
+}
 .about-me-text p {
   margin-left: 0;
   padding-left: 18px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .col-md-5 {

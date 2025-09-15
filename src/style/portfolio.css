@@ -45,3 +45,8 @@
   transition: 0.25s ease;
 }
 .project-item > a:hover img { transform: scale(1.1); }
+
+.project-category{
+  margin-top: -10px;
+  color: #d6d6d6b3;;
+}

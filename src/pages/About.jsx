@@ -6,11 +6,14 @@ import icon_photo from '../assets/images/icon-photo.svg'
 export default function About() {
   return (
     <article classNameName="about d-flex flex-column justify-content-start">
-      <h3 classNameName="h2 article-title">About Me</h3>
+      <header>
+      <h2 className="pageTitle">About Me</h2>
+      </header>
+      <section className="about-section">
       <div className="about-me-text d-flex flex-column justify-content-start">
         <p>
-          I'm Creative Director and UI/UX Designer from Sydney, Australia,
-          working in web development and print media. I enjoy turning complex
+          I'm Creative Director and UI/UX Designer from Maharashtra, India,
+          working in web development. I enjoy turning complex
           problems into simple, beautiful and intuitive designs.
         </p>
         <p>
@@ -18,8 +21,7 @@ export default function About() {
           user-friendly but at the same time attractive. Moreover, I add
           personal touch to your product and make sure that is eye-catching and
           easy to use. My aim is to bring across your message and identity in
-          the most creative way. I created web design for many famous brand
-          companies.
+          the most creative way.
         </p>
       </div>
 
@@ -85,7 +87,7 @@ export default function About() {
         <div className="card-body p-0">
           <h5 className="card-title">Photography</h5>
           <p className="card-text mb-0">
-            I make high-quality photos of any category at a professional level.
+            I love Photography and capturing unique moments through the lens.
           </p>
         </div>
       </div>
@@ -93,6 +95,7 @@ export default function About() {
 
   </div>
       </div>
+      </section>
     </article>
   );
 }

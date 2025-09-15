@@ -1,6 +1,18 @@
+.sidebar-info{
+  margin-top: 16%;
+}
+.title{
+  width: max-content;
+  color: hsl(0, 0%, 100%);
+  background-color: #2b2b2c;
+  font-size: 11px;
+  font-weight: 300;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
 aside {
   width: 275px;
-  height: 700px;
+  height: 750px;
   background-color: #1E1E1F;
   color: white;
   border-radius: 20px;

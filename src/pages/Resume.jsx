@@ -4,7 +4,10 @@ import "../style/resume.css";
 
 export default function Resume() {
   return (
-    <article classNameName="resume mt-4" data-page="resume">
+    <article classNameName="resume" data-page="resume">
+      <header>
+        <h2 className="pageTitle">Resume</h2>
+      </header>
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">

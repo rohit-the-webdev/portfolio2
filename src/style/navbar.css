@@ -3,11 +3,12 @@
   padding: 0.6rem 3rem;
   /* position: sticky; stays at top */
   top: 0;
+  margin-right: -.1%;
   z-index: 1000;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid #383838;
-  border-radius: 0px 12px 0px 20px;
+  border-radius: 0px 20px 0px 20px;
   box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.10);
   z-index: 5;
 }
@@ -17,6 +18,8 @@
   display: flex;         /* keep children laid out in a row */
   align-items: center;
   margin-left: 0;     /* <--- pushes the whole container to the right */
+  margin-right: 0;
+  border-radius: 20px;
 }
 
 /* compact link list (no stretching) */

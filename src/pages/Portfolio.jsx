@@ -13,7 +13,7 @@ function Portfolio() {
       </header>
         
       <section>
-        <ul className='project-list'>
+        <ul className='project-list pt-3'>
           <li className='project-item'>
             <a href="#">
             <figure className='project-img'>
@@ -22,7 +22,8 @@ function Portfolio() {
               </div>
               <img src={project1} alt="" loading='lazy' />
             </figure>
-            <h3 class="project-title">Finance</h3>
+            <h6 class="project-title">Finance</h6>
+            <p className="project-category">Web development</p>
             </a>
           </li>
           <li className='project-item'>
@@ -33,7 +34,8 @@ function Portfolio() {
               </div>
               <img src={project2} alt="" loading='lazy' />
             </figure>
-            <h3 class="project-title">Finance</h3>
+            <h6 class="project-title">Orizon</h6>
+            <p className="project-category">Web development</p>
             </a>
           </li>
           <li className='project-item'>
@@ -44,7 +46,8 @@ function Portfolio() {
               </div>
               <img src={project3} alt="" loading='lazy' />
             </figure>
-            <h3 class="project-title">Finance</h3>
+            <h6 class="project-title">Fundo</h6>
+            <p className="project-category">Web design</p>
             </a>
           </li>
         </ul>
