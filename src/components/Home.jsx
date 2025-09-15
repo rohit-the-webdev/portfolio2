@@ -13,11 +13,13 @@ export default function Home({ activeTab, setActiveTab }) {
       <div className="navbar-home-container">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       </div>
+      <div key={activeTab} className="tab-content fade-in">
       {activeTab === "about" && <About />}
       {activeTab === "resume" && <Resume />}
       {activeTab === "portfolio" && <Portfolio />}
       {activeTab === "blog" && <Blog />}
       {activeTab === "contact" && <Contact />}
+      </div>
     </div>
   );
 }
